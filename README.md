@@ -43,7 +43,7 @@ collections:
 |---------------------------------|--------------------------------------------------------------------------------|
 | `v2/aws/instances`              | Cached data from [DescribeInstances].                                          |
 | `v2/aws/autoScalingGroups`      | Cached data from [DescribeAutoScalingGroups].                                  |
-| `v2/aws/loadBalancers`          | Cached data from [DescribeLoadBalacners] (classic ELBs).                       |
+| `v2/aws/loadBalancers`          | Cached data from [DescribeLoadBalancers] (classic ELBs).                       |
 | `v2/aws/loadBalancerAttributes` | Cached data from [DescribeLoadBalancerAttributes] for all ELBs.                |
 | `v2/view/instances`             | View of instances rather than reservations as returned by [DescribeInstances]. |
 | `v2/netflix/serverGroups`       | Netflix view of server groups combining ASG and instance data.                 |
